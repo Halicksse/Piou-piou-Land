@@ -1,6 +1,6 @@
 export default function NavBar() {
     return (
-        <div className="text-yellow-300 border-yellow-400 border-opacity-100">
+        <div className="text-yellow-300 border border-yellow-400 border-opacity-100">
         <p>Ou?</p>
         <p>Piou piou land 
 57 Avenue du Piou Piou

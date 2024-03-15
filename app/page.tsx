@@ -6,7 +6,6 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="bg-slate-900 flex min-h-screen flex-col items-center justify-between p-24">
-    <Navbar />
      <div className="text-yellow-300">
         <h1 >BIENVENUE A PIOU PIOU LAAAAND !!!!</h1>
         <div> 
@@ -14,7 +13,6 @@ export default function Home() {
           src="/mascot.webp"
           width={200}
           height={500}
-
           alt="Mascot of the attraction parc"
           />
           </div>
@@ -35,7 +33,6 @@ export default function Home() {
           />
           </div>
       </div>
-      <Footer />
     </main>
   );
 }
