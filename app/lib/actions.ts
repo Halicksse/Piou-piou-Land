@@ -16,6 +16,21 @@
 // export async function updateUser(
 //     id: string,
 //     formData: FormData,
-//     ) {
-//     userId : 
-// )
+//     ) { const validateFIelds = UpdateUser.safeParse({
+//     userId : formData.get('userId'),
+//     email : formData.get('email'),
+//     password : formData.get('password'),
+//     });
+
+//     if (!validateFIelds.success) {
+//         return validateFIelds.error;flatten().fieldErrors,
+//         message: 'Missing Fields. Failed to Update Invoice.',
+//       };
+//     }
+
+//     const { userId, email, password } = validateFIelds.data;
+
+//     try {
+//         await sql'
+//         UPDATE users
+//     }
